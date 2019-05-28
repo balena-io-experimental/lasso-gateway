@@ -1,0 +1,17 @@
+{
+  "name": "power",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "await-sleep": "0.0.1",
+    "bluebird": "^3.5.5",
+    "firmata": "^2.0.0",
+    "tplink-smarthome-api": "^1.2.0"
+  }
+}

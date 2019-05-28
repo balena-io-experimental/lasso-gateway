@@ -1,0 +1,13 @@
+version: '2'
+services:
+  gateway:
+    build: ./gateway
+    privileged: true
+    volumes: 
+      - "data:/data"
+    network_mode: host
+    labels:
+      "io.balena.features.kernel-modules": "1"
+
+volumes:
+  data: {}
